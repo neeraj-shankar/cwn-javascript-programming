@@ -1,0 +1,20 @@
+Function Declarations:
+-----------------------------------------------------------------------------------------------------------------------
+Function declarations define a named function using the function keyword. These functions can be called before they are 
+defined because they are hoisted.
+
+example
+-----------------------------------------------------------
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+
+Function Expressions:
+-----------------------------------------------------------------------------------------------------------------------
+Function expressions define a function as part of an expression. They are often used to create anonymous functions or 
+to assign functions to variables.
+
+const add = function (a, b) {
+  return a + b;
+};

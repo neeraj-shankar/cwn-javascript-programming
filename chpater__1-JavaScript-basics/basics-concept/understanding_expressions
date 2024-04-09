@@ -1,0 +1,5 @@
+// Statement
+let x = 5;
+
+// Expression
+let y = x + 10;
